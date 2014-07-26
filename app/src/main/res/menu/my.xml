@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item android:id="@+id/action_session"
+        android:title="Logout"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_erasemsg"
+        android:title="Erase Messages"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_erasefavorites"
+        android:title="Erase Favorites"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_back1"
+        android:title="Background 1"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_back2"
+        android:title="Background 2"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_back3"
+        android:title="Background 3"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_back4"
+        android:title="Background 4"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MyActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewConversation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextConversation"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/loginButton" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/loginButtonConversation"
+        android:layout_alignParentBottom="true"
+        android:onClick="sendMessageConversation"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

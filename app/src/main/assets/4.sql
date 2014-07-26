@@ -1,0 +1,1 @@
+alter table MESSAGE_ITEM add to_username TEXT;

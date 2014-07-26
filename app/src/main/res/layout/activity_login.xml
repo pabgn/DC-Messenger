@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    tools:context="com.example.pablo.app2.Login">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="28pt"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="#ffffff"
+            android:layout_marginTop="58dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:padding="40px"
+            android:layout_marginTop="40dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_marginBottom="5px"
+                    android:layout_marginRight="30px"
+                    android:src="@drawable/prueba"
+                    android:id="@+id/loginAvatar" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent">
+
+                    <EditText
+                        android:layout_width="291dp"
+                        android:hint="Usuario"
+                        android:textColor="#ffffff"
+                        android:textColorHint="#ffffff"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:id="@+id/usernameInput" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#ffffff"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:hint="Equipo"
+                    android:layout_marginTop="40px"
+
+                    android:id="@+id/teamInput" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:id="@+id/loginButton"
+            android:onClick="doLogin"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
