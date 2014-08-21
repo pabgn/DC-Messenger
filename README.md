@@ -1,35 +1,34 @@
 DC Messenger
 =========
 
-Cliente de Advanced Direct Connect (Chat) para Android (4.3 o superior).
-Todo el proyecto se ha desarrollado desde cero en menos de 48 horas.
+Advanced Direct Connect Client (Chat) for Android 4.3 or greater.
+The project has enterely been developed in less than 48 hours. 
 
-![Alt text](http://cl.ly/image/0K3H1D1n1U1y/download/Pre-app-1.jpg "Optional title")
-
-
+![Screenshot](http://cl.ly/image/0K3H1D1n1U1y/download/Pre-app-1.jpg "Optional title")
 
 
-Funcionalidades
+
+Features
 -----------
 
-* [Respuestas] - Responde un mensaje haciendo doble tab.
-* [Mensajes Privados] - Son guardados en memoria.
-* [Favoritos] - Manten pulsado un mensaje y guardalo para leerlo más tarde.
-* [Avatares] - Únicos y generados a partir del nombre de usuario.
-* [Youtube] - Previsualización del thumbnail de los vídeos y enlace directo.
-* [Equipos] - Por fin de una forma legible junto al usuario.
-* [Fondos] - Elige el fondo que más se adapte a ti.
+* [Replies] - Reply a message double-tapping a message.
+* [Private Messages] - Stored in memory.
+* [Favorites] - Hold a message and it will be saved for reading it later.
+* [Avatars] - Unique and generetaded based on username.
+* [Youtube] - Thumbnail preview for videos and direct link.
+* [Teams] - Featuring next to the username.
+* [Backgrounds] - Choose the one that suits you most.
 
 
-Equipo
+Team
 -----------
 
-Con mucho amor desde Valencia y Madrid para nuestros amigos de Euskal Encounter:
+With love from Valencia and Madrid to all of our Euskal Encounter friends
 
-* [Programación] - Pablo Garcia-Nieto [(@Pabgn)](http://twitter.com/Pabgn "Se aceptan bugs!")
-* [Diseño] - Adrián Martín [(@Adrimartin)](http://twitter.com/Adrimartin "Se aceptan sugerencias!")
-
-
+* [Programming] - Pablo Garcia-Nieto [(@Pabgn)](http://twitter.com/Pabgn "Still working on it")
+* [Design] - Adrián Martín [(@Adrimartin)](http://twitter.com/Adrimartin "Open to changes and improvements")
 
 
-**Euskal Encounter, Hell Yeah!**
+
+
+**Euskal Encounter 2014**
